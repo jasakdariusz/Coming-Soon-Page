@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.bgimg {
+    background: url(../images/cubes.jpg);
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    color: #fff;
+    font-family: Comfortaa;
+}
+
+.middle {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+h1 {
+    font-size: 40px;
+    letter-spacing: 30px;
+    font-weight: 400;
+}
+
+#countdown {
+    font-weight: lighter;
+    word-spacing: 20px;
+}
+
+hr {
+    margin: auto;
+    width: 80%;
+    border: 2px solid #fff;
+}
