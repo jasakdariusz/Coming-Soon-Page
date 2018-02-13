@@ -21,7 +21,7 @@ html, body {
 
 .middle {
     position: absolute;
-    top: 55%;
+    top: 65%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
@@ -34,8 +34,9 @@ h1 {
 }
 
 #countdown {
-    font-weight: lighter;
-    word-spacing: 20px;
+    font-weight: bold;
+    word-spacing: 15px;
+    color: #00FF00;
 }
 
 hr {
